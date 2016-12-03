@@ -1,0 +1,9 @@
+{
+  "name": "mean-twitter",
+  "version": "1.0.0",
+  "description": "Twitter clone using MEAN stack. Guided by youtube video \"Mean Stack Tutorial for Beginners\"",
+  "main": "index.js",
+  "repository": "https://github.com/tonnamb/mean-twitter.git",
+  "author": "Tonnam Balankura",
+  "license": "MIT"
+}
