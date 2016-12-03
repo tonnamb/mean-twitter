@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/tonnamb/mean-twitter.git",
   "author": "Tonnam Balankura",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.9"
+  }
 }
