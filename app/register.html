@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.js"></script>
+	<script src="./js/chirpApp.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body ng-app="chirpApp">
+	<div id="main" class="container" ng-controller="authController">
+		<div class="col-md-offset-2 col-md-8">
+			<div class="clearfix">
+				<h2>Register</h2>
+				<p class="text-warning">{{error_message}}</p>
+				<form class="form-auth" ng-submit="register()">
+					<input type="username" class="form-control" placeholder="Username" ng-model="user.username"/><br>
+					<input type="password" class="form-control" placeholder="Password" ng-model="user.password"/><br>
+					<input type="submit" class="btn btn-primary" value="Register"/>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

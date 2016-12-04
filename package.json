@@ -6,7 +6,5 @@
   "repository": "https://github.com/tonnamb/mean-twitter.git",
   "author": "Tonnam Balankura",
   "license": "MIT",
-  "dependencies": {
-    "angular": "^1.5.9"
-  }
+  "dependencies": {}
 }
